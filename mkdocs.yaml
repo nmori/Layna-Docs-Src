@@ -88,7 +88,7 @@ extra_css:
     - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
     - css/extra.css
 plugins:
-  #- git-revision-date-localized
+  - git-revision-date-localized
   - search
   - glightbox
   - meta-descriptions:
