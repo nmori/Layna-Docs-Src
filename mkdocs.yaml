@@ -1,0 +1,116 @@
+site_name: まるっとれいな｜配信レイアウト支援ツール
+site_description: 「まるっとれいな」のドキュメントページです
+site_author: nao
+copyright: Copyright &copy; 2023 -  N,Mori/*nao*
+theme:
+  name: material
+  language: ja
+  locale: ja
+  separator: '[\s\-\.]+'
+  logo: images/logo.jpg
+  favicon: images/favicon.png
+  features:
+    - content.tabs.link
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.section
+    - navigation.footer
+    #- toc.integrate
+  font:
+    text: Yusei Magic
+    weight: bold
+  palette:
+    - media: "(prefers-color-scheme)"
+      primary: darkblue
+      accent: darkblue
+      toggle:
+        icon: material/brightness-auto
+        name: ライトモードに切り替えます。
+    - media: "(prefers-color-scheme: light)"
+      primary: darkblue
+      accent: darkblue
+      scheme: default      
+      toggle:
+          #icon: material/toggle-switch-off-outline
+          icon: material/brightness-7 
+          name: ダークモードに切り替えます。
+    - media: "(prefers-color-scheme: dark)"            
+      primary: darkblue
+      accent: darkblue
+      scheme: slate
+      toggle:
+          #icon: material/toggle-switch
+          icon: material/brightness-4 
+          name: オートモードに切り替えます。
+extra:
+  search:
+    language: 'ja'
+  analytics:
+    provider: google
+    property: G-ZKE9XRJLM3
+  social:
+    - icon: fontawesome/solid/shop
+      link: https://vtool.booth.pm/items/5067032
+  generator: true
+markdown_extensions:
+  - abbr
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.magiclink
+  - codehilite
+  - pymdownx.emoji
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences    
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true      
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - codehilite:
+      noclasses: true
+      pygments_style: colorful
+      linenums: true
+extra_css:
+    - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    - css/extra.css
+plugins:
+  #- git-revision-date-localized
+  - search
+  - glightbox
+  - meta-descriptions:
+      export_csv: false
+      quiet: false
+      enable_checks: false
+      min_length: 50
+      max_length: 160
+nav:
+    - まるっとれいな▼:
+      - TOP: 'index.md'
+      - できること: 'spec.md'
+      - ダウンロード: 'https://vtool.booth.pm/items/5067032'
+      - 利用規約: 'system_info.md'
+    - ドキュメント▼:
+      - インストール : 'install.md'      
+      - レイアウトを使う : 'import.md'      
+      - レイアウトを渡す : 'export.md'      
+      - レイアウトを探す : 'search.md'   
+      - 連携 :
+        - 出来ること : 'link_spec.md'  
+        - 最初にやる項目 : 'link_init.md'   
+        - 設定方法 : 'link_use.md'   
+   
+
