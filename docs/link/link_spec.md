@@ -1,6 +1,6 @@
 # できること
 
-![Alt text](images/link_spec_p01.png)
+![Alt text](../images/link_spec_p01.png)
 
 * わんコメや OBS から取得できる情報を、OBSのソースに表示できます。
 
