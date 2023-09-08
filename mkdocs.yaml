@@ -102,21 +102,22 @@ nav:
       - TOP: 'index.md'
       - できること: 'spec.md'
       - ダウンロード: 'https://vtool.booth.pm/items/5067032'
-      - 利用規約: 'system_info.md'
-    - ドキュメント▼:
       - インストール : 'install.md'      
+      - 利用規約: 'system_info.md'
+    - レイアウト▼:
       - レイアウトを使う : 'import.md'      
       - レイアウトを渡す : 'export.md'      
       - レイアウトを探す : 'search.md'   
-      - 連携 :
-        - 出来ること : 'link/link_spec.md'  
-        - 最初にやる項目 : 'link/link_init.md'   
-        - 設定方法 : 'link/link_use.md'      
+    - わんコメ連携▼:
+      - 出来ること : 'link/link_spec.md'  
+      - 最初にやる項目 : 'link/link_init.md'   
+      - 設定方法 : 'link/link_use.md'      
       - 計算式 :
         - 正規表現 : 'calc/calc_reg.md'  
         - 条件文 : 'calc/calc_init.md'   
-      - 攻略（チートシート） :
-        - 記念日カウントダウン : 'cs/cs_countdown.md'  
-        - 100人目のコメントを祝う : 'cs/cs_100come.md'   
+        - タグ : 'calc/calc_tag.md'      
+    - 攻略（チートシート）▼:
+      - 記念日カウントダウン : 'cs/cs_countdown.md'  
+      - 100人目のコメントを祝う : 'cs/cs_100come.md'   
 
 
