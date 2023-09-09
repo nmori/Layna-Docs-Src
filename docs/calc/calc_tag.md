@@ -32,7 +32,8 @@
 |  〔配信〕.time.elapsed| 〔配信〕の配信経過時間|
 |  word.〔キーワード〕.count| キーワード(タグ：〔キーワード〕)の数|
 |  word.〔キーワード〕.uniqueCount| キーワード（タグ：〔キーワード〕)の数(ユニークユーザ数)|
-|  live.time.countdown| カウントダウン時間|
+|  live.time.countDown| カウントダウン時間|
+|  live.time.countUp| カウントアップ時間|
 |  live.time.local| 配信者現在時刻|
 |  live.time.utc| 現在の世界標準時刻|
 |  live.date.local| 配信者現在日付|
@@ -72,10 +73,14 @@
 |  setlist.completed.list| セットリスト　終了（全部）|
 |  setlist.completed.isEnabled| セットリスト　終了（全部）有効か（有効ならソースを表示）|
 |  waitingList.count| 参加待ち者数|
+|  waitingList.now.requestCount|現在の参加待ち者の参加リクエスト回数|
+|  waitingList.now.date|現在の参加待ち者が参加した日付|
 |  waitingList.now.name| 現在の参加待ち者名|
 |  waitingList.now.isEnabled| 参加待ちが有効か（有効ならソースを表示）|
-|  waitingList.〔配信〕.name| 現在の参加待ち者名 〔配信〕人目|
-|  waitingList.〔配信〕.isEnabled| 参加待ち〔配信〕人目が有効か（有効ならソースを表示）|
+|  waitingList.〔n〕.requestCount|現在の参加待ち者の参加リクエスト回数(〔n〕人目)|
+|  waitingList.〔n〕.name| 現在の参加待ち者名 〔n〕人目|
+|  waitingList.〔n〕.date|現在の参加待ち者〔n〕人目が参加した日付|
+|  waitingList.〔n〕.isEnabled| 参加待ち〔n〕人目が有効か（有効ならソースを表示）|
 |  waitingList.all| 参加待ちリスト|
 |  waitingList.all.nr| 参加待ちリスト(改行無し)|
 |  waitingList.isEnabled| 参加待ちが有効か（有効ならソースを表示）|
