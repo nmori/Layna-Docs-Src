@@ -119,5 +119,8 @@ nav:
     - 攻略（チートシート）▼:
       - 記念日カウントダウン : 'cs/cs_countdown.md'  
       - 100人目のコメントを祝う : 'cs/cs_100come.md'   
-
+      - 初見さんの数を数える : 'cs/cs_firsttime.md'   
+      - 初見コメント時にメディアを再生 : 'cs/cs_firsttimeact.md'   
+      - おはようコメントに反応する : 'cs/cs_ohacome.md'   
+      - コメント数に応じて表示を出す : 'cs/cs_cometag.md'   
 

@@ -8,8 +8,14 @@
 
 ## 設定
 
+* まるっとれいなで文字を数えるためのタグをつくります
+
 ![Image title](../images/cs_100come_p01.png)
 
+* まるっとれいなでどういうときにアクションを起こすか設定します。
+
 ![Image title](../images/cs_100come_p02.png)
+
+* 転送先をいれます。`{action.comment100.user.name}`タグは、上のアクションが実行されたときのチャットユーザの名前を拾います。
 
 ![Image title](../images/cs_100come_p03.png)
