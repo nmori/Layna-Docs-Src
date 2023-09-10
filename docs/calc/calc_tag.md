@@ -10,6 +10,8 @@
 |  〔配信〕.last.userName| 最後にコメントした人の名前|
 |  〔配信〕.last.displayName| 最後にコメントした人の表示名|
 |  〔配信〕.last.comment| 最後にコメントした人のコメント|
+|  〔配信〕.last.reward.cost| 最後に提供されたChポイント |
+|  〔配信〕.last.reward.title| 最後に提供されたChポイントの種類 |
 |  〔配信〕.gift.last.userName| 最後にギフトした人の名前|
 |  〔配信〕.gift.last.displayName| 最後にギフトした人の表示名|
 |  〔配信〕.gift.last.comment| 最後にギフトした人のコメント|
@@ -17,6 +19,9 @@
 |  〔配信〕.member.last.userName| 最後にコメントしたメンバーの名前|
 |  〔配信〕.member.last.displayName| 最後にコメントしたメンバーの表示名|
 |  〔配信〕.member.last.comment| 最後にコメントしたメンバーのコメント|
+|  〔配信〕.moderator.last.userName|最後にコメントしたモデレーターの名前|
+|  〔配信〕.moderator.last.displayName|最後にコメントしたモデレータの表示名|
+|  〔配信〕.moderator.last.comment|最後にコメントしたモデレータのコメント|
 |  〔配信〕.firstTime.last.userName| 最後にコメントした初見メンバーの名前|
 |  〔配信〕.firstTime.last.displayName| 最後にコメントした初見メンバーの表示名|
 |  〔配信〕.firstTime.last.comment| 最後にコメントした初見メンバーのコメント|
@@ -105,3 +110,14 @@
 |  obs.stream.bytes| 配信バイト数|
 |  obs.stream.skipframe| 配信スキップフレーム|
 |  obs.stream.totalframe| 配信トータルフレーム|
+|  obs.screenShot.isEnabled| スクリーンショットのファイルが有効か？|
+|  obs.screenShot.fileName| スクリーンショットのファイル名|
+|  ync.last.talkerName| 最後に話した人の名前|
+|  ync.last.〔n〕.text| 最後に話した人の文章 （n番目の言語)|
+|  ync.last.〔n〕.inHiragana| 話者文にひらがなを含むか （n番目の言語)|
+|  ync.last.〔n〕.inKatakana| 話者文にカタカナを含むか （n番目の言語)|
+|  ync.last.〔n〕.language| 最後に話した人の言語名 （n番目の言語)|
+|  ync.〔話者名〕.〔n〕.text| 話者別文章 （n番目の言語)|
+|  ync.〔話者名〕.〔n〕.inHiragana| 話者文にひらがなを含むか （n番目の言語)|
+|  ync.〔話者名〕.〔n〕.inKatakana| 話者文にカタカナを含むか （n番目の言語)|
+|  ync.〔話者名〕.〔n〕.language| 話者別文章の言語名 （n番目の言語)|

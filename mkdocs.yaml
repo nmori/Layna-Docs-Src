@@ -1,4 +1,4 @@
-site_name: まるっとれいな｜配信レイアウト支援ツール
+site_name: まるっとれいな｜配信・レイアウト支援ツール
 site_description: 「まるっとれいな」のドキュメントページです
 site_author: nao
 copyright: Copyright &copy; 2023 -  N,Mori/*nao*
@@ -95,8 +95,8 @@ plugins:
       export_csv: false
       quiet: false
       enable_checks: false
-      min_length: 50
-      max_length: 160
+      min_length: 100
+      max_length: 150
 nav:
     - まるっとれいな▼:
       - TOP: 'index.md'
@@ -108,6 +108,8 @@ nav:
       - レイアウトを使う : 'import.md'      
       - レイアウトを渡す : 'export.md'      
       - レイアウトを探す : 'search.md'   
+    - バックアップ▼:
+      -  OBSバックアップ : 'backup.md'      
     - わんコメ連携▼:
       - 出来ること : 'link/link_spec.md'  
       - 最初にやる項目 : 'link/link_init.md'   
