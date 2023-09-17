@@ -46,14 +46,14 @@
 |  action.〔設定〕.user.name| カスタムアクション(〔設定〕)成立時のユーザ名|
 |  action.〔設定〕.user.comment| カスタムアクション(〔設定〕)成立時のコメント|
 |  comment.count| コメント総数|
-|  comment.firssTime.count| 初見さん数|
-|  comment.firstTime.names| 初見さんリスト|
-|  comment.uniqueUser.names| 全コメントユーザ名|
-|  comment.uniqueUser.count| コメントしたユニークユーザ数|
-|  comment.gift.names| 全ギフトユーザ名|
-|  comment.gift.count| ギフトしたユニークユーザ数|
-|  comment.member.names| コメントした全メンバーユーザ名|
-|  comment.member.count| コメントした全メンバーユーザ数|
+|  comment.firstTime.uniqueNames| 初見さんリスト|
+|  comment.firssTime.uniqueCount| 初見さん数|
+|  comment.uniqueUser.uniqueNames| 全コメントユーザ名|
+|  comment.uniqueUser.uniqueCount| コメントしたユニークユーザ数|
+|  comment.gift.uniqueNames| 全ギフトユーザ名|
+|  comment.gift.uniqueCount| ギフトしたユニークユーザ数|
+|  comment.member.uniqueNames| コメントした全メンバーユーザ名|
+|  comment.member.uniqueCount| コメントした全メンバーユーザ数|
 |  survey.isEnabled| アンケート中かどうか(配信中ならソースを表示)|
 |  waitingList.joinWord| 参加キーワード|
 |  waitingList.declineWord| 辞退キーワード|
@@ -121,3 +121,4 @@
 |  ync.〔話者名〕.〔n〕.inHiragana| 話者文にひらがなを含むか （n番目の言語)|
 |  ync.〔話者名〕.〔n〕.inKatakana| 話者文にカタカナを含むか （n番目の言語)|
 |  ync.〔話者名〕.〔n〕.language| 話者別文章の言語名 （n番目の言語)|
+|  customTransfer.〔Tag〕.text| カスタム転送文|
