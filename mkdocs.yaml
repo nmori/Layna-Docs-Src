@@ -125,4 +125,5 @@ nav:
       - 初見コメント時にメディアを再生 : 'cs/cs_firsttimeact.md'   
       - おはようコメントに反応する : 'cs/cs_ohacome.md'   
       - コメント数に応じて表示を出す : 'cs/cs_cometag.md'   
+      - 表示を工夫して出す : 'cs/cs_customlayout.md'   
 
