@@ -118,6 +118,7 @@ nav:
         - 正規表現 : 'calc/calc_reg.md'  
         - 条件文 : 'calc/calc_init.md'   
         - タグ : 'calc/calc_tag.md'      
+      - エンドロール : 'link/endroll.md'      
     - 攻略（チートシート）▼:
       - 記念日カウントダウン : 'cs/cs_countdown.md'  
       - 100人目のコメントを祝う : 'cs/cs_100come.md'   
